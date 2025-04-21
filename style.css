@@ -1,0 +1,104 @@
+body{
+    background-color: #123458;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#signin.form-container{
+    width: 15%;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 25%;
+    height: auto;
+    clip-path: polygon(51% 0, 100% 8%, 100% 93%, 49% 100%, 0 93%, 0 8%);
+    padding: 30px;
+}
+
+div{
+    margin: 10px;
+}
+
+b{
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr{
+    border-color: black;
+    width: 90%;
+}
+
+input{
+    background-color: #F1EFEC;
+    border-radius: 5px;
+    border: none;
+    width: 300px;
+    height: 30px;
+}
+
+button{
+    background-color: #123458;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    width: 70px;
+    height: 25px;
+}
+
+a{
+    color: #123458;
+    margin: 10px;
+}
+
+p{
+    font-size: 15px;
+    margin-top: 1px;
+    margin-bottom: 0px;
+}
+
+#signup input{
+    background-color: white;
+    box-shadow: 0 5px 5px #DBDBDB;
+    border: 2px solid white;
+}
+
+#signup input:focus {
+    border-color: #60B5FF !important;
+    outline: none;
+}
+
+.icon{
+    box-shadow: 4px 4px 10px #DBDBDB;
+}
+.icon:hover{
+    box-shadow: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  
+.icon img {
+    max-width: 70%;
+    max-height: 70%;
+    object-fit: contain;
+    margin: 0 5px;
+}
+  
